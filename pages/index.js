@@ -46,7 +46,7 @@ function Home({ data }) {
 }
 
 export async function getServerSideProps() {
-  const response = await fetch(`http://localhost:8080/metas`);
+  const response = await fetch(`https://gestor-metas-api.herokuapp.com/metas`);
   const data = await response.json();
   console.log(data);
   return {
