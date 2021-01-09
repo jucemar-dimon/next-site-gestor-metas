@@ -32,7 +32,7 @@ function cadastrar() {
 
     setResponse({ formSave: true });
     try {
-      const res = await fetch("http://localhost:8080/metas", {
+      const res = await fetch("https://gestor-metas-api.herokuapp.com/metas", {
         method: "POST",
         body: JSON.stringify(meta),
         headers: { "Content-Type": "application/json" },
