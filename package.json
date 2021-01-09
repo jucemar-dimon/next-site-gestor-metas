@@ -1,15 +1,13 @@
 {
   "name": "next-site-gestor-metas",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/jucemar/next-site-gestor-metas.git",
+  "version": "0.1.0",
   "author": "Jucemar Dimon",
   "license": "MIT",
+  "private": true,
   "scripts": {
-    "dev": "next",
+    "dev": "next dev",
     "build": "next build",
-    "start": "next start -p $PORT",
-    "heroku-postbuild": "npm run build"
+    "start": "next start -p $PORT"
   },
   "dependencies": {
     "bootstrap": "^4.5.3",
